@@ -1,0 +1,45 @@
+# Build outputs
+build/
+build-ae/
+dist/
+obj/
+out/
+
+# Compiled binaries and symbols
+*.dll
+*.pdb
+*.obj
+*.lib
+*.exp
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# xmake local/generated files
+.xmake/
+xmake-requires.lock
+
+# Temporary/editor files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Locally vendored dependencies
+lib/commonlibsse-ng/
