@@ -1,45 +1,42 @@
-# Build outputs
+# Build outputs and intermediates
 build/
-build-ae/
-dist/
+bin/
 obj/
-out/
-
-# Compiled binaries and symbols
-*.dll
-*.pdb
+dist/
 *.obj
 *.lib
+*.dll
 *.exp
 *.ilk
-*.idb
-*.ipdb
+*.pdb
 *.iobj
+*.ipdb
+*.res
 
-# Visual Studio
+# xmake build artifacts
+.xmake/
+*.xmake
+
+# Visual Studio / IDE metadata
 .vs/
+*.vcxproj.user
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+.vscode/
+.idea/
 
-# xmake local/generated files
-.xmake/
-xmake-requires.lock
+# CommonLibSSE-NG vendored dependency (configured via submodule/clone)
+lib/commonlibsse-ng/
 
-# Temporary/editor files
+# Python cache & runtime temp files
+__pycache__/
+*.py[cod]
 *.tmp
-*.temp
 *.log
-*.bak
-*.swp
-*.swo
-*~
 
 # OS metadata
-.DS_Store
 Thumbs.db
-Desktop.ini
-
-# Locally vendored dependencies
-lib/commonlibsse-ng/
+[Dd]esktop.ini
+.DS_Store
