@@ -1,6 +1,6 @@
 # Mirrorborn
 
-**Nexus Mods:** [Mod page](NEXUS_MOD_PAGE_URL)
+**Nexus Mods:** [Mirrorborn - Copy NPC Appearance to the Player](https://www.nexusmods.com/skyrimspecialedition/mods/188509)
 
 ## Requirements
 
